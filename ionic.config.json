@@ -1,0 +1,7 @@
+{
+  "name": "EkkaphonApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
