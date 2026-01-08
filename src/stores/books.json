@@ -1,0 +1,82 @@
+[
+   {
+      "id": 1,
+      "title": "เทคโนโลยีเครื่องมือ AI: คู่มือสำหรับการเริ่มต้นใช้งานขั้นพื้นฐาน (PDF)",
+      "author": "JACK PK",
+      "price": "299฿",
+      "available_copies": 3,
+      "cover_url": "https://mp-static.se-ed.com/e-book-audio/3jak21vw7n63g6a1d3gz/image/3viz7sf7"
+   },
+   {
+      "id": 2,
+      "title": "การเขียนโปรแกรมด้วย Golang",
+      "author": "สุพจน์ สง่ากอง, ปิยะ นากสงค์",
+      "price": "217.55฿",
+      "available_copies": 0,
+      "cover_url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1700072436i/202196573.jpg"
+   },
+   {
+      "id": 3,
+      "title": "คู่มือเขียนโปรแกรมด้วย Python",
+      "author": "ศุภชัย สมพานิช",
+      "price": "265.5฿",
+      "available_copies": 5,
+      "cover_url": "https://api.chulabook.com/images/pid-178968.JPG"
+   },
+   {
+      "id": 4,
+      "title": "Omniscient Reader",
+      "author": "SingShong (ซิงซอง)",
+      "price": "248฿",
+      "available_copies": 1,
+      "cover_url": "https://preview.redd.it/omniscient-reader-viewpoint-is-getting-an-anime-adaptation-v0-vj4abvrrn2hd1.jpeg?width=640&crop=smart&auto=webp&s=e987e921fbeafd8e89e383af68a9579b2bf57433"
+   },
+   {
+      "id": 5,
+      "title": "เกิดใหม่ทั้งทีก็เป็นสไลม์ไปซะแล้ว",
+      "author": "ฟูเสะ (Fuse)",
+      "price": "299฿",
+      "available_copies": 3,
+      "cover_url": "https://storage.naiin.com/system/application/bookstore/resource/product/202310/593703/1000266164_front_XXL.jpg"
+   },
+   {
+      "id": 6,
+      "title": "วันพีซ (One Piece)",
+      "author": "เออิจิโระ โอดะ",
+      "price": "120฿",
+      "available_copies": 1,
+      "cover_url": "https://th.bing.com/th/id/OIP.UAn9BSnX38Z0xDRJncSGwwHaKt?w=129&h=187&c=7&r=0&o=7&cb=ucfimgc2&dpr=2&pid=1.7&rm=3"
+   },
+   {
+      "id": 7,
+      "title": "นารูโตะ (Naruto)",
+      "author": "มาซาชิ คิชิโมโตะ ",
+      "price": "150฿",
+      "available_copies": 3,
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg"
+   },
+   {
+      "id": 8,
+      "title": "Black Clover",
+      "author": "Yūki Tabata",
+      "price": "180฿",
+      "available_copies": 5,
+      "cover_url": "https://th.bing.com/th/id/OIP.JWIF7rojgXynJhqRE3rXzQHaLH?w=194&h=291&c=7&r=0&o=7&cb=ucfimgc2&dpr=2&pid=1.7&rm=3"
+   },
+   {
+      "id": 9,
+      "title": "Jujutsu Kaisen",
+      "author": "Gege Akutami",
+      "price": "200฿",
+      "available_copies": 2,
+      "cover_url": "https://th.bing.com/th/id/OIP.LuoA0CROQQ13Yn8UYw80hQAAAA?w=194&h=277&c=7&r=0&o=7&cb=ucfimgc2&dpr=2&pid=1.7&rm=3"
+   },
+   {
+      "id": 10,
+      "title": "Attack on Titan",
+      "author": "ฮาจิเมะ อิซายามะ",
+      "price": "220฿",
+      "available_copies": 5,
+      "cover_url": "https://th.bing.com/th/id/OIP.j9DKTlZWRLJKFyeQ1IaoDAHaLH?w=194&h=291&c=7&r=0&o=7&cb=ucfimgc2&dpr=2&pid=1.7&rm=3"
+   }
+]

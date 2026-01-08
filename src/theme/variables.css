@@ -1,2 +1,218 @@
-/* For information on how to create your own theme, please see:
-http://ionicframework.com/docs/theming/ */
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Thai:wght@100..800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.ios .ion-page
+{
+    --background: #ffffff;
+}
+.md .ion-page {
+    --background: #ffffff;
+}
+:root {
+	--ion-color-primary: #ce3636;
+	--ion-color-primary-rgb: 206,54,54;
+	--ion-color-primary-contrast: #ffffff;
+	--ion-color-primary-contrast-rgb: 255,255,255;
+	--ion-color-primary-shade: #b53030;
+	--ion-color-primary-tint: #d34a4a;
+
+	--ion-color-secondary: #f27d7d;
+	--ion-color-secondary-rgb: 242,125,125;
+	--ion-color-secondary-contrast: #000000;
+	--ion-color-secondary-contrast-rgb: 0,0,0;
+	--ion-color-secondary-shade: #d56e6e;
+	--ion-color-secondary-tint: #f38a8a;
+
+	--ion-color-tertiary: #4f22e2;
+	--ion-color-tertiary-rgb: 79,34,226;
+	--ion-color-tertiary-contrast: #ffffff;
+	--ion-color-tertiary-contrast-rgb: 255,255,255;
+	--ion-color-tertiary-shade: #461ec7;
+	--ion-color-tertiary-tint: #6138e5;
+
+	--ion-color-success: #07f246;
+	--ion-color-success-rgb: 7,242,70;
+	--ion-color-success-contrast: #000000;
+	--ion-color-success-contrast-rgb: 0,0,0;
+	--ion-color-success-shade: #06d53e;
+	--ion-color-success-tint: #20f359;
+
+	--ion-color-warning: #ffc409;
+	--ion-color-warning-rgb: 255,196,9;
+	--ion-color-warning-contrast: #000000;
+	--ion-color-warning-contrast-rgb: 0,0,0;
+	--ion-color-warning-shade: #e0ac08;
+	--ion-color-warning-tint: #ffca22;
+
+	--ion-color-danger: #c5000f;
+	--ion-color-danger-rgb: 197,0,15;
+	--ion-color-danger-contrast: #ffffff;
+	--ion-color-danger-contrast-rgb: 255,255,255;
+	--ion-color-danger-shade: #ad000d;
+	--ion-color-danger-tint: #cb1a27;
+
+	--ion-color-light: #f6f8fc;
+	--ion-color-light-rgb: 246,248,252;
+	--ion-color-light-contrast: #000000;
+	--ion-color-light-contrast-rgb: 0,0,0;
+	--ion-color-light-shade: #d8dade;
+	--ion-color-light-tint: #f7f9fc;
+
+	--ion-color-medium: #5f5f5f;
+	--ion-color-medium-rgb: 95,95,95;
+	--ion-color-medium-contrast: #ffffff;
+	--ion-color-medium-contrast-rgb: 255,255,255;
+	--ion-color-medium-shade: #545454;
+	--ion-color-medium-tint: #6f6f6f;
+
+	--ion-color-dark: #2f2f2f;
+	--ion-color-dark-rgb: 47,47,47;
+	--ion-color-dark-contrast: #ffffff;
+	--ion-color-dark-contrast-rgb: 255,255,255;
+	--ion-color-dark-shade: #292929;
+	--ion-color-dark-tint: #444444;
+
+}
+
+ion-app, 
+ion-content, 
+/* Font */
+body {
+  font-family: "Playpen Sans", sans-serif;
+  background: var(--ion-background-color);
+  color: var(--ion-text-color);
+}
+ion-title,
+ion-label,
+ion-button,
+ion-item,
+ion-input,
+ion-text,
+ion-card,
+ion-list,
+ion-badge,
+ion-select,
+ion-textarea {
+  font-family: "Playpen Sans", sans-serif !important;
+}
+
+/* Toolbar */
+ion-toolbar {
+  --background: var(--ion-color-primary);
+  --color: var(--ion-color-primary-contrast);
+  font-weight: 600;
+}
+ion-toolbar ion-title {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+/* Buttons */
+ion-button {
+  --background: var(--ion-color-primary);
+  --color: #ff0a0a;
+  border-radius: 12px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  transition: transform 0.15s ease, filter 0.3s ease;
+}
+
+ion-button:hover {
+  filter: brightness(1.15);
+  transform: translateY(-2px);
+}
+
+ion-button:active {
+  transform: scale(0.96);
+}
+ion-back-button {
+  color: #ffffff !important;
+  --color-hover: var(--ion-color-secondary);
+}
+
+/* Searchbar */
+ion-searchbar {
+  --background: #ffffff;
+  --color: #bd2323;
+  --placeholder-color: #191919;
+  border-radius: 10px;
+  margin: 6px;
+  font-family:  "Prompt", "Noto Sans Thai", sans-serif;
+}
+
+/* List */
+ion-item {
+  --ion-item-background: #f8f1f0;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+ion-item:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+/* Book Cover */
+ion-thumbnail img {
+  width: 100px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+
+}
+
+/* Book title / text */
+ion-label h2 {
+  font-size: 1px;
+  font-weight: 600;
+  color: #db1212;
+}
+
+ion-label p {
+  font-size: 14px;
+  color: #ddd2d2;
+}
+
+/* Status Badge */
+ion-badge {
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #ffffff
+}
+
+ion-badge.available {
+  background: #07f307; /* เขียวเข้มแบบห้องสมุด */
+  color: white;
+}
+
+ion-badge.borrowed {
+  background: #b44336; /* แดงน้ำตาล */
+  color: white;
+}
+
+/* Book Detail */
+.book-detail {
+  text-align: center;
+  padding: 20px;
+
+}
+.book-detail h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #ff0202;
+}
+
+.book-cover {
+  width: 170px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: 16px;
+}
+
+.author,
+.price {
+  color: #030303;
+}
